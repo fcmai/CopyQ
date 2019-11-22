@@ -6,9 +6,9 @@ image:
 
 environment:
   matrix:
-    - QTDIR: C:\Qt\5.12.5\mingw73_32
+    - QTDIR: C:\Qt\5.9\mingw53_32
       CMAKE_GENERATOR: MinGW Makefiles
-      MINGW_PATH: C:\Qt\Tools\mingw730_32
+      MINGW_PATH: C:\Qt\Tools\mingw530_32
 
     - QTDIR: C:\Qt\5.12.5\msvc2017_64
       CMAKE_GENERATOR: Visual Studio 15 2017
